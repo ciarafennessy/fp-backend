@@ -3,7 +3,6 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - ./mvnw spring-boot:run
   post_build:
     commands:
       - echo Build completed on `date`
